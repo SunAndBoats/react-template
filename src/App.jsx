@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import './App.css'
 
+import './App.css'
+import Greeting from './components/Greeting';
+import Counter from './components/Counter'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-     
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-       
-      </div>
+     <Greeting/>
+      <Counter/>
      
     </>
   )
