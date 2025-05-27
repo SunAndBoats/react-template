@@ -1,3 +1,11 @@
+Default	
+export default function Button() {}	
+import Button from './Button.js';
+
+Named
+export function Button() {}	
+import { Button } from './Button.js';
+
 # React + Vite
 
 npm run
