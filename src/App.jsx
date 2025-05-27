@@ -4,14 +4,14 @@ import './App.css'
 import {Greeting} from './components/Greeting';
 
 //default import
-import Counter from './components/Counter'
+import Tucuuuulo from './components/Counter'
 function App() {
   
 
   return (
     <>
      <Greeting/>
-      <Counter/>
+      <Tucuuuulo/>
      
     </>
   )
