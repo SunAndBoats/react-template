@@ -1,6 +1,9 @@
 
 import './App.css'
-import Greeting from './components/Greeting';
+//named import
+import {Greeting} from './components/Greeting';
+
+//default import
 import Counter from './components/Counter'
 function App() {
   

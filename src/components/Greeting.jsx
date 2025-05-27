@@ -1,4 +1,4 @@
-export default function Greeting() {
+export function Greeting() {
     
     return <p>Hello from Greeting!</p>;
   }
